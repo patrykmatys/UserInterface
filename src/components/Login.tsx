@@ -39,13 +39,13 @@ const Login: React.FC = () => {
 
   const handleLogin = async () => {
     const response = await authenticate(username, password)
-    console.log(response)
     if (response !== null) {
         localStorage.setItem('jwtToken', response);
+        navigate("/items")
+    } else {
+        localStorage.removeItem('jwtToken');
+        window.alert("Wrong password or username")
     }
-
-    console.log(localStorage.getItem('jwtToken'))
-
   };
 
   return (
