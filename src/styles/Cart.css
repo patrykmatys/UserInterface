@@ -1,0 +1,33 @@
+/* Cart.css */
+
+/* Styles for the Update button */
+.update-button {
+    background-color: #007bff; /* Change the background color to blue */
+    color: #fff; /* Change the text color to white */
+    padding: 8px 16px; /* Add some padding to the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Styles for the Continue Shopping and Proceed to Checkout buttons */
+  .continue-shopping-button,
+  .proceed-to-checkout-button {
+    background-color: #28a745; /* Change the background color to green */
+    color: #fff; /* Change the text color to white */
+    padding: 8px 16px; /* Add some padding to the buttons */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-right: 10px; /* Add some margin between buttons */
+  }
+  
+  /* Hover effect for the buttons */
+  .continue-shopping-button:hover,
+  .proceed-to-checkout-button:hover,
+  .update-button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for a visual effect */
+  }
+
+  .item-image {
+    max-width: 100%;
+    height: auto;
+  }
