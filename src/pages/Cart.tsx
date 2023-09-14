@@ -69,7 +69,7 @@ const Cart = () => {
   const handleOrder = async () => {
     await addOrder()
     window.alert("Successfully created new order")
-    navigate("/items");
+    navigate("/orders");
   };
 
   return (
@@ -124,7 +124,7 @@ const Cart = () => {
           Continue Shopping
         </button>
         <button className="proceed-to-checkout-button" onClick={handleOrder}>
-          Proceed to Checkout
+          Place an order
         </button>
       </div>
     </div>

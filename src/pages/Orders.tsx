@@ -34,7 +34,7 @@ const OrderPage = () => {
         {orders.map((order) => (
           <div key={order.created} className="order-card">
             <div className="order-header">
-              <span className="order-date">{formatTimestamp(order.created as unknown as number)}</span>
+              <span className="order-date">{formatTimestamp(order.created as unknown as number)} </span>
               <span className="order-total">
                 Total: ${order.price.toFixed(2)}
               </span>
