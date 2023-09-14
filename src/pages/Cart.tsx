@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { getCart, getItemById, updateItemInCart, addOrder } from '../api/calls';
 import { CartItem, CartRequest } from '../objects/Types';
 import { useNavigate } from 'react-router-dom';
-import "../styles/Cart.css"
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
@@ -105,7 +104,7 @@ const Cart = () => {
             </div>
             <div className="item-actions">
               <button
-                className="remove-from-cart-button"
+                className="cart-button"
                 onClick={() => handleUpdateItem(item.id, quantities[item.id])}
               >
                 Update
@@ -120,10 +119,13 @@ const Cart = () => {
       </div>
 
       <div className="navigation-buttons">
-        <button className="continue-shopping-button" onClick={() => navigate('/items')}>
+        <button className="cart-button" onClick={() => navigate('/items')}>
           Continue Shopping
         </button>
-        <button className="proceed-to-checkout-button" onClick={handleOrder}>
+        <button className="cart-button" onClick={() => navigate("/orders")}>
+          Go to orders
+        </button>
+        <button className="cart-button" onClick={handleOrder}>
           Place an order
         </button>
       </div>
