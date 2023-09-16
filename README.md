@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+Hasła w bazie danych przechowywane są dla bezpieczeństwa w zaszyfrowanej postaci.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/73b0117c-e722-4f38-836a-0f90f67819b3)
 
-## Available Scripts
+Przy próbie zalogowania użytkownik otrzyma informację jeśli podane hasło było błędne.
 
-In the project directory, you can run:
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/b1dece4f-6d83-4169-b13f-3a3a4fa11e60)
 
-### `npm start`
+W przypadku udanego logowania użytkownik zostaje przekierowany na stronę z przedmiotami.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/c71fc36a-cfd1-420e-8fcd-865dc61e01cb)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Przedmioty mogą być wyszukiwane oraz filtrowane.
 
-### `npm test`
+Filtrowanie przez kategorię:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/3c0e3521-3950-4b1d-a197-49af49eda52d)
 
-### `npm run build`
+Wyszukiwanie po nazwie:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/3fc7fa2b-b75d-4fee-8a82-1e940b99f5c7)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Użytkownik ma możliwość dodawania przedmiotów do koszyka, po wykonaniu operacji zostaje on o tym poinformowany.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/feb3c2d8-9c40-4c40-9057-9f9ce0f3c6a0)
 
-### `npm run eject`
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/4a8c54ee-fead-4b93-a578-5abf15f2c84d)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Po przejściu do koszyka użytkownik może wyświetlić dodane do niego przedmioty i dowolnie modfyfikować ich ilość. Może też w każdej chwili wrócić do listy wszytskich przedmiotów.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/d6e5cd97-7807-4ab5-a6c6-48193f0ebfae)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/1ed84175-dbdd-4bbd-93e1-e0e31a2160b1)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Z panelu koszyka można złożyć nowe zamówienie. Po dokonaniu operacji użytkownik zostanie o tym poinformowany.
 
-## Learn More
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/c3d9cbbc-9112-4f61-9d09-4cb404f2ed6f)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Po przejściu do panelu zamówień widzimy historię dokonanych zamówień wraz ze szczegółami każdego z nich:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/patrykmatys/UserInterface/assets/79519630/b2bd4c5f-94df-4e38-8104-6f130bcd87a3)
+
+
+
+
+
+
+
