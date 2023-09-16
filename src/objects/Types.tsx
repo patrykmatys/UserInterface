@@ -18,6 +18,11 @@ export type CartRequest = {
   quantity: number;
 };
 
+export type CartItemDetails = {
+  amount: number,
+  price: number
+}
+
 export type CartResponse = {
   user: string;
   items: Record<string, number>;
@@ -39,4 +44,16 @@ export type Order = {
 export type OrderHistory = {
   user: string;
   orders: Order[];
+};
+
+export type CartSimpleItem = {
+  name: String,
+  amount: number;
+  price: number;
+};
+
+export type FullOrder = {
+  created: string;
+  price: number;
+  items: CartSimpleItem[]
 };
